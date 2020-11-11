@@ -24,11 +24,13 @@ float:left;
   text-transform: uppercase;
 }
 .btn-green{
+  height:40px;
+  width:100px;
   color:white;
   background-color:lightgreen;
-  padding:0 5px;
   border-radius: 5px;
   text-transform: uppercase;
+
 }
 
 /* /general rules */
@@ -71,15 +73,11 @@ header{
   text-transform: uppercase;
   font-size: 10px;
   float:right;
-
-
-
-.jumbotron{
-  /* background-color: pink; */
-  height: 450px;
 }
-.banda-grey{
-  background-color: grey;
-  width: 100%;
-  height:150px;
+h1{
+  width: 50%;
+  color: white;
+  text-transform:uppercase;
+  margin-top:10%;
+  margin-bottom:5%;
 }
