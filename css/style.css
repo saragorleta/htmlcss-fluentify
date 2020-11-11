@@ -1,1 +1,34 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
 
+header{
+  height:500px;
+  background-color:rgb(56, 0, 138);
+  background-image: url('../img/background-header.png');
+  background-size: 70%;
+  background-repeat:no-repeat;
+  background-position:110% 110%;
+}
+.container{
+  /* background-color: white; */
+  width: 70%;
+  /* height: 500px; */
+  margin:auto;
+}
+.header-nav{
+  background-color: yellow;
+  height: 50px;
+
+}
+.jumbotron{
+  /* background-color: pink; */
+  height: 450px;
+}
+.banda-grey{
+  background-color: grey;
+  width: 100%;
+  height:150px;
+}
