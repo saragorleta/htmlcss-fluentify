@@ -12,6 +12,22 @@ header{
   background-repeat:no-repeat;
   background-position:110% 110%;
 }
+/* general rules */
+.cleafix::after{
+  content:"";
+  display:table;
+  clear:both;
+}
+.float-left{
+float:left;
+}
+
+.float-right{
+  float:right;
+}
+/* /general rules */
+
+
 .container{
   /* background-color: white; */
   width: 70%;
