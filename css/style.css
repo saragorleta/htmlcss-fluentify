@@ -4,14 +4,6 @@
   box-sizing: border-box;
 }
 
-header{
-  height:500px;
-  background-color:rgb(56, 0, 138);
-  background-image: url('../img/background-header.png');
-  background-size: 70%;
-  background-repeat:no-repeat;
-  background-position:110% 110%;
-}
 /* general rules */
 .cleafix::after{
   content:"";
@@ -27,6 +19,14 @@ float:left;
 }
 /* /general rules */
 
+header{
+  height:500px;
+  background-color:rgb(56, 0, 138);
+  background-image: url('../img/background-header.png');
+  background-size: 70%;
+  background-repeat:no-repeat;
+  background-position:110% 110%;
+}
 
 .container{
   /* background-color: white; */
@@ -36,9 +36,18 @@ float:left;
 }
 .header-nav{
   background-color: yellow;
+  width: 100%;
   height: 50px;
 
 }
+.header-nav-left li{
+  list-style: none;
+  padding: 20px 10px;
+  text-transform: uppercase;
+  font-size: 10px;
+  float:left;
+}
+
 .jumbotron{
   /* background-color: pink; */
   height: 450px;
